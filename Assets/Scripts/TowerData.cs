@@ -22,11 +22,10 @@ public class TowerData : ScriptableObject/*, ISerializationCallbackReceiver*/
     [Serializable]
     public class TowerInfo
     {
-        public string name;
-        public string description;
-
         public Tower tower;
-
+        public int damage;
+        public float attackRange;
+        public float attackDelay;
         public float buildTime;
         public float buildCost;
         public float sellCost;

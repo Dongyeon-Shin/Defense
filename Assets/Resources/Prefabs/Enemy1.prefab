@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 116261898479858878}
   - component: {fileID: -4927184898310376925}
   - component: {fileID: 1409768494953410547}
-  m_Layer: 0
+  - component: {fileID: 760770664846464267}
+  - component: {fileID: 3284227895313607733}
+  - component: {fileID: 6524598418420024504}
+  m_Layer: 6
   m_Name: Enemy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,6 +72,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5b7d80b872c2e48841189d45c8c2c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &760770664846464267
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286115640430236995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.11
+  m_Height: 3.42
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.54, z: 0}
+--- !u!54 &3284227895313607733
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286115640430236995}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6524598418420024504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286115640430236995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd124ae45acf954d8e53f0b52a2f916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3017656384664954697
 GameObject:
   m_ObjectHideFlags: 0
@@ -80,7 +125,7 @@ GameObject:
   - component: {fileID: 9069917813060386404}
   - component: {fileID: 7120061932537128741}
   - component: {fileID: 1219412409798374855}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 466839600498458388}
   - component: {fileID: 2190904294115997315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +293,7 @@ GameObject:
   - component: {fileID: 8900044919060531015}
   - component: {fileID: 394157542482097729}
   - component: {fileID: 1756589680883820358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'Canvas '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +405,7 @@ GameObject:
   - component: {fileID: 1494154581468692091}
   - component: {fileID: 4961764353905278917}
   - component: {fileID: 6602214327972052637}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8441546058912588804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,6 +517,22 @@ PrefabInstance:
     - target: {fileID: 1246070444819080, guid: a6271366fabb2364382b95436057922e, type: 3}
       propertyPath: m_Name
       value: TB_Soldier_Spearman_Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246070444819080, guid: a6271366fabb2364382b95436057922e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262353465354870, guid: a6271366fabb2364382b95436057922e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814076539729930, guid: a6271366fabb2364382b95436057922e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975261523290938, guid: a6271366fabb2364382b95436057922e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4096475833891026, guid: a6271366fabb2364382b95436057922e, type: 3}
       propertyPath: m_RootOrder

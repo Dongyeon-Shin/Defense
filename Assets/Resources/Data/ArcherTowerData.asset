@@ -12,10 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c1e65d811b33d546bacbd9baee304fe, type: 3}
   m_Name: ArcherTowerData
   m_EditorClassIdentifier: 
-  lv1Tower: {fileID: 0}
-  lv2Tower: {fileID: 0}
-  lv3Tower: {fileID: 0}
-  lv4Tower: {fileID: 0}
-  buildTime: 1
-  buildCost: 10
-  sellCost: 5
+  towers:
+  - tower: {fileID: 3356604504641787334, guid: cabcc3a5ed903494583bb18d56ce7f35, type: 3}
+    damage: 1
+    attackRange: 25
+    attackDelay: 1
+    buildTime: 1
+    buildCost: 10
+    sellCost: 5
+  - tower: {fileID: 5153572078002248745, guid: 3ab16a02a6067334f95bde48e2d7b84d, type: 3}
+    damage: 3
+    attackRange: 25
+    attackDelay: 1
+    buildTime: 3
+    buildCost: 20
+    sellCost: 10
